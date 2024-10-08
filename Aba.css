@@ -1,0 +1,38 @@
+body {
+    background-color: rgb(66, 64, 64);
+    color: white;
+    font-family: "Protest Guerrilla", sans-serif;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+main {
+    margin-top: 10%;
+    margin-left: 20%;
+    margin-right: 20%;
+    align-items: center;
+    text-align: center;
+}
+
+button {
+    background-color: yellow;
+    opacity: 0.75;
+}
+
+button:hover {
+    opacity: 1.0;
+    border: 2px solid white;
+}
+
+.passo {
+    display: none;
+}
+
+.passo.ativo {
+    display:block;
+}
+img{
+    margin-bottom: 10px;
+    max-width: 30%;
+}
